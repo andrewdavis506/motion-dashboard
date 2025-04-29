@@ -48,7 +48,7 @@ This was built to counter my own time-blindness. It's designed to sit quietly on
 
 ### 1. Clone the Repository
 ```
-git clone https://github.com/your-username/motion-dashboard.git
+git clone https://github.com/andrewdavis506/motion-dashboard.git
 cd motion-dashboard
 ```
 ### 2. Set Up Your Environment
