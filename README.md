@@ -82,14 +82,14 @@ Configuration values are prioritized in the following order:
  
 Available .env Settings
 
-| Variable           | Description |
-|--------------------|---|
- | `MOTION_API_KEY`   | Your Motion API key (required)|
- | `PORT`             | Port to run the server on (default: 8080)|
- | `REFRESH_INTERVAL` | How often to poll the Motion API (default: 60s)|
- | `LOG_API_KEYS`     | Log API keys for debugging (default: false)|
- | `TEMPLATES_DIR`    | Directory for HTML templates (default: ./templates)|
- | `STATIC_DIR`       | Directory for static files (default: ./static)|
+| Variable           | Description                              |
+|--------------------|------------------------------------------|
+| `MOTION_API_KEY`   | Your Motion API key (required)          |
+| `PORT`             | Port to run the server on (default: 8080)|
+| `REFRESH_INTERVAL` | How often to poll the Motion API (default: 60s)|
+| `LOG_API_KEYS`     | Log API keys for debugging (default: false)|
+| `TEMPLATES_DIR`    | Directory for HTML templates (default: ./templates)|
+| `STATIC_DIR`       | Directory for static files (default: ./static)|
 ---
 
 ## ✨ Dashboard Behavior
