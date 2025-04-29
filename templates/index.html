@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Progress</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+<button class="theme-toggle" id="theme-toggle">🌓</button>
+
+<div class="container">
+    <h1 id="dashboard-title">Task Dashboard</h1>
+
+    <!-- Circle Timer or Digital Clock -->
+    <div class="circle-timer-container">
+        <div class="circle-timer" id="circle-timer">
+            <svg width="250" height="250" viewBox="0 0 250 250">
+                <circle class="circle-background" cx="125" cy="125" r="115" />
+                <circle class="circle-progress" cx="125" cy="125" r="115" stroke-dasharray="723" stroke-dashoffset="723" id="progress-circle" />
+            </svg>
+            <div class="circle-timer-text">
+                <div class="timer-display" id="timer-display">--:--:--</div>
+            </div>
+        </div>
+
+        <div class="digital-clock" id="digital-clock">
+            <div id="time-display">--:--:--</div>
+            <div class="date-display" id="date-display"></div>
+        </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <!-- Next Task Info -->
+    <div class="next-task-section">
+        <h2>Next Task</h2>
+        <p class="next-task-name" id="next-task-name">Loading...</p>
+        <p class="next-task-time" id="next-task-time">--:-- --</p>
+        <p class="next-task-countdown" id="next-task-countdown"></p>
+    </div>
+</div>
+
+<script src="/static/js/dashboard.js"></script>
+</body>
+</html>
