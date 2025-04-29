@@ -1,5 +1,9 @@
 # 🧠 Motion Dashboard
 
+![Go](https://img.shields.io/badge/go-1.21-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Neurodivergent Friendly](https://img.shields.io/badge/made%20for-ADHD-brightgreen)
+
 A minimalist personal dashboard to track your current and upcoming tasks, synced with Motion's API. Designed especially for neurodivergent minds (particularly ADHD), it provides visual timers, countdowns, and a calming way to stay oriented in time.
 
 ---
